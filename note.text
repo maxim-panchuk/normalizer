@@ -1,0 +1,7 @@
+docker build -t canonizer .
+docker run -p 8000:8000 -p 5678:5678 -e DEBUGPY=1 --name canonizer-dev canonizer
+
+
+intfloat/multilingual-e5-base
+cointegrated/rubert-base-cased-nli-twoway
+Alibaba-NLP/gte-multilingual-base
