@@ -7,7 +7,7 @@ import yaml
 from fastapi import FastAPI, Body
 from pydantic import BaseModel, Field
 from rapidfuzz import process, fuzz
-import pymorphy2
+import pymorphy3
 
 # ──────────────────────────────────────────────────────────────
 # Конфиг
@@ -15,7 +15,7 @@ LEXICON_PATH = os.getenv("LEXICON_PATH", "ingredients.yml")
 FUZZY_THRESHOLD = int(os.getenv("FUZZY_THRESHOLD", "90"))  # 0..100
 MAX_ITEMS = int(os.getenv("MAX_ITEMS", "200"))             # кап на кол-во позиций в одном тексте
 
-MORPH = pymorphy2.MorphAnalyzer()
+MORPH = pymorphy3.MorphAnalyzer()
 STOP = {"свежий","свежая","свежие","резаный","резаные","молотый","варёный","вареный","жареный","отварной","без","со","из"}
 VARIETY = {"черри","сливовидные","пальчиковые","крупный","мелкий"}
 

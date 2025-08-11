@@ -1,6 +1,6 @@
 fastapi==0.112.0
 uvicorn==0.30.3
-pymorphy2
-pymorphy2-dicts-ru
+pymorphy3
+pymorphy3-dicts-ru
 PyYAML==6.0.2
 rapidfuzz==3.9.4

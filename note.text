@@ -5,3 +5,14 @@ docker run -p 8000:8000 -p 5678:5678 -e DEBUGPY=1 --name canonizer-dev canonizer
 intfloat/multilingual-e5-base
 cointegrated/rubert-base-cased-nli-twoway
 Alibaba-NLP/gte-multilingual-base
+
+
+
+docker build -t ingredient-normalizer .
+
+docker run -d --name ingredient-normalizer \
+  -p 8000:8000 \
+  -e FUZZY_THRESHOLD=90 \
+  -e MAX_ITEMS=200 \
+  -v $(pwd)/ingredients.yml:/app/ingredients.yml:ro \
+  ingredient-normalizer
