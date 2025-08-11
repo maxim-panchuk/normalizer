@@ -205,15 +205,18 @@ def normalize(req: NormalizeRequest = Body(...)):
             amount=p.get("amount"), unit=p.get("unit")
         ))
 
-    # 3) «человекочитаемая» каноническая строка
-    parts = []
+    # 3) «человекочитаемая» строка:
+    #    - если распознали → используем canonical name
+    #    - если нет        → используем исходный raw
+    #    порядок сохраняем, граммовки/единицы — тоже
+    parts: List[str] = []
     for x in result:
-        if x.name:
-            if x.amount is not None and x.unit:
-                amt = int(x.amount) if abs(x.amount - int(x.amount)) < 1e-6 else x.amount
-                parts.append(f"{x.name} {amt} {x.unit}")
-            else:
-                parts.append(x.name)
+        display = x.name if x.name else x.raw
+        if x.amount is not None and x.unit:
+            amt = int(x.amount) if abs(x.amount - int(x.amount)) < 1e-6 else x.amount
+            parts.append(f"{display} {amt} {x.unit}")
+        else:
+            parts.append(display)
     canon_str = ", ".join(parts)
 
     return NormalizeResponse(
