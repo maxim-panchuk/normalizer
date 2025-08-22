@@ -4,12 +4,16 @@ canonical:
     synonyms:
       - молоко
       - молоко коровье
+      - цельное молоко
+      - обезжиренное молоко 
 
   Морковь:
     id: морковь
     synonyms:
       - Морковь
       - Морковка
+      - свежая морковь
+
 
   Пармезан:
     id: Parmesan
@@ -29,11 +33,12 @@ canonical:
       - Моцарелла
       - сыр Моцарелла
   
-  Моцарелла:
+  Моцарелла: Дорблю
     id: Дорблю
     synonyms:
       - дорблю
       - сыр дорблю
+      - голубой сыр
 
   Фета:
     id: Фета
@@ -60,16 +65,19 @@ canonical:
       - йогурт
       - йогурт натуральный
       - йогурт без добавок
+      - йогурт греческий
 
   Сметана:
     id: SOUR_CREAM
     synonyms:
       - сметана
+      - сметана обезжиренная
 
   Сливки:
     id: CREAM
     synonyms:
       - сливки
+
 
   Масло сливочное:
     id: BUTTER
@@ -79,6 +87,12 @@ canonical:
       - гхи
       - топленое масло
       - масло топленое
+
+  Масло ГХИ:
+    id: гхи
+      - гхи
+      - масло гхи
+
 
   Творог:
     id: COTTAGE_CHEESE
@@ -92,6 +106,7 @@ canonical:
       - крем-сыр
       - крем сыр
       - филадельфия
+      - сыр филадельфия
 
   Тофу:
     id: TOFU
@@ -160,6 +175,7 @@ canonical:
     synonyms:
       - куриные крылья
       - крылья куриные
+      - куриные крылышки
 
     Куриное филе:
     id: CHICKEN_BREAST
@@ -200,8 +216,9 @@ canonical:
     synonyms:
       - гречка
       - гречневая крупа
-      - круп гречневая
+      - крупа гречневая
       - гречуха
+      - греча
 
   Рис:
     id: RICE
@@ -807,6 +824,906 @@ canonical:
       - кайенский перец
 
   Макароны:
+    id: PASTA
+    synonyms:
+      - макароны
+      - паста
+      - спагетти
+      - пенне
+      - фузилли
+      - фетучини
+      - рожки
+      - лапша пшеничная
+
+  Лапша рисовая:
+    id: RICE_NOODLES
+    synonyms:
+      - рисовая лапша
+
+  Фунчоза:
+    id: GLASS_NOODLES
+    synonyms:
+      - фунчоза
+      - стеклянная лапша
+      - лапша бобовая
+      - лапша из бобов мунг
+
+  Овсяные хлопья:
+    id: OAT_FLAKES
+    synonyms:
+      - овсяные хлопья
+      - овсянка
+      - геркулес
+
+  Булгур:
+    id: BULGUR
+    synonyms:
+      - булгур
+
+  Кускус:
+    id: COUSCOUS
+    synonyms:
+      - кускус
+
+  Перловка:
+    id: PEARL_BARLEY
+    synonyms:
+      - перловка
+      - перловая крупа
+
+  Пшено:
+    id: MILLET
+    synonyms:
+      - пшено
+      - пшенная крупа
+
+  Ячневая крупа:
+    id: BARLEY_GROATS
+    synonyms:
+      - ячневая крупа
+      - ячка
+
+  Манная крупа:
+    id: SEMOLINA
+    synonyms:
+      - манка
+      - манная крупа
+
+  Киноа:
+    id: QUINOA
+    synonyms:
+      - киноа
+
+  Нут:
+    id: CHICKPEAS
+    synonyms:
+      - нут
+      - турецкий горох
+
+  Чечевица:
+    id: LENTILS
+    synonyms:
+      - чечевица
+      - чечевица красная
+      - чечевица зеленая
+      - чечевица зелёная
+
+  Фасоль красная:
+    id: KIDNEY_BEANS
+    synonyms:
+      - фасоль красная
+      - красная фасоль
+
+  Фасоль белая:
+    id: WHITE_BEANS
+    synonyms:
+      - фасоль белая
+      - белая фасоль
+
+  Эдамаме:
+    id: EDAMAME
+    synonyms:
+      - эдамаме
+      - соевые бобы
+
+
+    synonyms:
+      - Пармезан
+      - сыр пармезан
+
+  Чеддер:
+    id: Chadder
+    synonyms:
+      - Чеддер
+      - сыр чеддер
+  
+  Моцарелла:
+    id: Моцарелла
+    synonyms:
+      - Моцарелла
+      - сыр Моцарелла
+  
+  Моцарелла:
+    id: Дорблю
+    synonyms:
+      - дорблю
+      - сыр дорблю
+
+  Фета:
+    id: Фета
+    synonyms:
+      - Сыр фета
+      - фета
+  
+  Сыр:
+    id: сыр
+    synonyms:
+      - сыр
+      - твердый сыр
+      - мягкий сыр
+      - полутвердый сыр
+
+  Кефир:
+    id: KEFIR
+    synonyms:
+      - кефир
+
+  Йогурт натуральный:
+    id: YOGURT_PLAIN
+    synonyms:
+      - йогурт
+      - йогурт натуральный
+      - йогурт без добавок
+
+  Сметана:
+    id: SOUR_CREAM
+    synonyms:
+      - сметана
+
+  Сливки:
+    id: CREAM
+    synonyms:
+      - сливки
+
+  Масло сливочное:
+    id: BUTTER
+    synonyms:
+      - масло сливочное
+      - сливочное масло
+      - топленое масло
+      - масло топленое
+
+  Масло ГХИ:
+    id: гхи
+      - гхи
+      - масло гхи
+
+
+  Творог:
+    id: COTTAGE_CHEESE
+    synonyms:
+      - творог
+
+  Сыр творожный:
+    id: CREAM_CHEESE
+    synonyms:
+      - сыр творожный
+      - крем-сыр
+      - крем сыр
+      - филадельфия
+
+  Тофу:
+    id: TOFU
+    synonyms:
+      - тофу
+
+  Темпе:
+    id: TEMPEH
+    synonyms:
+      - темпе
+
+  Яйцо куриное:
+    id: EGG
+    synonyms:
+      - яйцо
+      - яйца
+      - яйцо куриное
+
+  Белок яйца:
+    id: EGG_WHITE
+    synonyms:
+      - белок
+      - белок яйца
+
+  Желток яйца:
+    id: EGG_YOLK
+    synonyms:
+      - желток
+      - желток яйца
+
+  Говядина:
+    id: BEEF
+    synonyms:
+      - говядина
+      - говяжье мясо
+      - говяжья вырезка
+      - вырезка говядины
+      - мясо из говядины
+
+  Свинина:
+    id: PORK
+    synonyms:
+      - свинина
+      - свиное мясо
+      - вырезка свинины
+      - вырезка из свинины
+
+  Баранина:
+    id: LAMB
+    synonyms:
+      - баранина
+
+  Телятина:
+    id: VEAL
+    synonyms:
+      - телятина
+
+  Куриное бедро:
+    id: CHICKEN_THIGH
+    synonyms:
+      - бедро куриное
+      - куриное бедро
+
+  Крылья куриные:
+    id: CHICKEN_WINGS
+    synonyms:
+      - куриные крылья
+      - крылья куриные
+
+    Куриное филе:
+    id: CHICKEN_BREAST
+    synonyms:
+      - филе куриное
+      - грудка куриная
+      - грудинка куриная
+
+  Индейка:
+    id: TURKEY
+    synonyms:
+      - индейка
+      - филе индейки
+
+  Помидор:
+    id: TOMATO
+    synonyms:
+      - томат
+      - помидор
+      - помидоры
+      - томаты
+      - томаты черри
+
+  Картофель:
+    id: POTATO
+    synonyms:
+      - картофель
+      - картошка
+
+  Греча:
+    id: BUCKWHEAT
+    synonyms:
+      - гречка
+      - гречневая крупа
+      - круп гречневая
+      - гречуха
+      - греча
+
+  Рис:
+    id: RICE
+    synonyms:
+      - рис
+      - рисовая крупа
+      - крупа рисовая
+
+  Шампиньоны:
+    id: Champignons
+    synonyms:
+      - Шампиньоны
+      - Шампиньон
+      - Грибы шампиньоны
+
+  Фарш говяжий:
+    id: BEEF_MINCE
+    synonyms:
+      - фарш говяжий
+      - говяжий фарш
+
+  Фарш свиной:
+    id: PORK_MINCE
+    synonyms:
+      - фарш свиной
+      - свиной фарш
+
+  Фарш индейки:
+    id: TURKEY_MINCE
+    synonyms:
+      - фарш индейки
+
+  Фарш куриный:
+    id: CHICKEN_MINCE
+    synonyms:
+      - фарш куриный
+
+  Красная рыба:
+    id: SALMON
+    synonyms:
+      - лосось
+      - семга
+      - сёмга
+      - нерка
+      - горбуша
+      - кета
+      
+  Тунец консервированный:
+    id: TUNA
+    synonyms:
+      - тунец
+      - тунец консервированный
+      - консервированный тунец
+
+  Треска:
+    id: COD
+    synonyms:
+      - треска
+
+  Минтай:
+    id: POLLOCK
+    synonyms:
+      - минтай
+
+  Хек:
+    id: HAKE
+    synonyms:
+      - хек
+
+  Скумбрия:
+    id: MACKEREL
+    synonyms:
+      - скумбрия
+
+  Сельдь:
+    id: HERRING
+    synonyms:
+      - сельдь
+      - селедка
+
+  Креветки:
+    id: SHRIMP
+    synonyms:
+      - креветка
+      - креветки
+
+  Кальмар:
+    id: SQUID
+    synonyms:
+      - кальмар
+      - кальмары
+
+  Мидии:
+    id: MUSSELS
+    synonyms:
+      - мидии
+      - мидия
+
+  Вешенки:
+    id: OYSTER_MUSHROOMS
+    synonyms:
+      - вешенки
+      - вешенка
+      - грибы вешенки
+
+  Лисички:
+    id: CHANTERELLES
+    synonyms:
+      - лисички
+      - лисичка
+      - грибы лисички
+
+  Белые грибы:
+    id: PORCINI
+    synonyms:
+      - белые грибы
+      - белый гриб
+      - боровик
+
+  Опята:
+    id: HONEY_FUNGI
+    synonyms:
+      - опята
+      - опенок
+      - опёнок
+      - грибы опята
+
+  Лук репчатый:
+    id: ONION
+    synonyms:
+      - лук
+      - лук репчатый
+
+  Лук зеленый:
+    id: SPRING_ONION
+    synonyms:
+      - зеленый лук
+      - зелёный лук
+      - перо лука
+
+  Чеснок:
+    id: GARLIC
+    synonyms:
+      - чеснок
+
+  Огурец:
+    id: CUCUMBER
+    synonyms:
+      - огурец
+      - огурцы
+
+  Болгарский перец:
+    id: BELL_PEPPER
+    synonyms:
+      - болгарский перец
+      - сладкий перец
+      - перец сладкий
+
+  Брокколи:
+    id: BROCCOLI
+    synonyms:
+      - брокколи
+
+  Цветная капуста:
+    id: CAULIFLOWER
+    synonyms:
+      - цветная капуста
+
+  Капуста белокочанная:
+    id: CABBAGE_WHITE
+    synonyms:
+      - капуста
+      - капуста белокочанная
+
+  Капуста краснокочанная:
+    id: CABBAGE_RED
+    synonyms:
+      - краснокочанная капуста
+
+  Брюссельская капуста:
+    id: BRUSSELS_SPROUTS
+    synonyms:
+      - брюссельская капуста
+
+  Кабачок:
+    id: ZUCCHINI
+    synonyms:
+      - кабачок
+      - кабачки
+      - цуккини
+
+  Баклажан:
+    id: EGGPLANT
+    synonyms:
+      - баклажан
+      - баклажаны
+
+  Свёкла:
+    id: BEETROOT
+    synonyms:
+      - свекла
+      - свёкла
+
+  Кукуруза:
+    id: CORN
+    synonyms:
+      - кукуруза
+      - кукуруза консервированная
+      - зерна кукурузы
+
+  Горох зелёный:
+    id: GREEN_PEA
+    synonyms:
+      - зеленый горошек
+      - зелёный горошек
+      - горох консервированный
+
+  Шпинат:
+    id: SPINACH
+    synonyms:
+      - шпинат
+      - листья шпината
+
+  Салат айсберг:
+    id: ICEBERG_LETTUCE
+    synonyms:
+      - айсберг
+      - салат айсберг
+
+  Руккола:
+    id: ARUGULA
+    synonyms:
+      - руккола
+
+  Петрушка:
+    id: PARSLEY
+    synonyms:
+      - петрушка
+      - зелень петрушки
+
+  Укроп:
+    id: DILL
+    synonyms:
+      - укроп
+      - зелень укропа
+
+  Кинза:
+    id: CILANTRO
+    synonyms:
+      - кинза
+      - кориандр зелень
+
+  Базилик:
+    id: BASIL
+    synonyms:
+      - базилик
+
+  Сельдерей стеблевой:
+    id: CELERY_STALK
+    synonyms:
+      - сельдерей стеблевой
+      - стебли сельдерея
+
+  Корень сельдерея:
+    id: CELERIAC
+    synonyms:
+      - корень сельдерея
+      - сельдерей корневой
+
+  Имбирь:
+    id: GINGER
+    synonyms:
+      - имбирь
+      - корень имбиря
+
+  Лимон:
+    id: LEMON
+    synonyms:
+      - лимон
+
+  Лайм:
+    id: LIME
+    synonyms:
+      - лайм
+
+  Авокадо:
+    id: AVOCADO
+    synonyms:
+      - авокадо
+
+  Яблоко:
+    id: APPLE
+    synonyms:
+      - яблоко
+      - яблоки
+
+  Банан:
+    id: BANANA
+    synonyms:
+      - банан
+      - бананы
+
+  Груша:
+    id: PEAR
+    synonyms:
+      - груша
+      - груши
+
+  Апельсин:
+    id: ORANGE
+    synonyms:
+      - апельсин
+      - апельсины
+
+  Мандарин:
+    id: TANGERINE
+    synonyms:
+      - мандарин
+      - мандарины
+
+  Грейпфрут:
+    id: GRAPEFRUIT
+    synonyms:
+      - грейпфрут
+
+  Ананас:
+    id: PINEAPPLE
+    synonyms:
+      - ананас
+
+  Манго:
+    id: MANGO
+    synonyms:
+      - манго
+
+  Виноград:
+    id: GRAPES
+    synonyms:
+      - виноград
+
+  Клубника:
+    id: STRAWBERRY
+    synonyms:
+      - клубника
+      - ягоды клубники
+
+  Черника:
+    id: BLUEBERRY
+    synonyms:
+      - черника
+
+  Голубика:
+    id: BILBERRY
+    synonyms:
+      - голубика
+
+  Малина:
+    id: RASPBERRY
+    synonyms:
+      - малина
+
+  Ежевика:
+    id: BLACKBERRY
+    synonyms:
+      - ежевика
+
+  Смородина чёрная:
+    id: BLACKCURRANT
+    synonyms:
+      - смородина черная
+      - смородина чёрная
+
+  Изюм:
+    id: RAISINS
+    synonyms:
+      - изюм
+
+  Курага:
+    id: DRIED_APRICOTS
+    synonyms:
+      - курага
+      - курага сушеная
+
+  Чернослив:
+    id: PRUNES
+    synonyms:
+      - чернослив
+
+  Миндаль:
+    id: ALMONDS
+    synonyms:
+      - миндаль
+
+  Грецкий орех:
+    id: WALNUTS
+    synonyms:
+      - грецкий орех
+      - грецкие орехи
+
+  Фисташки:
+    id: PISTACHIOS
+    synonyms:
+      - фисташки
+      - фисташка
+
+  Кешью:
+    id: CASHEW
+    synonyms:
+      - кешью
+
+  Арахис:
+    id: PEANUTS
+    synonyms:
+      - арахис
+
+  Фундук:
+    id: HAZELNUTS
+    synonyms:
+      - фундук
+
+  Семечки подсолнечника:
+    id: SUNFLOWER_SEEDS
+    synonyms:
+      - семечки
+      - семечки подсолнечника
+      - ядра подсолнечника
+
+  Семена тыквы:
+    id: PUMPKIN_SEEDS
+    synonyms:
+      - семечки тыквенные
+      - семена тыквы
+
+  Семена чиа:
+    id: CHIA_SEEDS
+    synonyms:
+      - чиа
+      - семена чиа
+
+  Кунжут:
+    id: SESAME_SEEDS
+    synonyms:
+      - кунжут
+      - семена кунжута
+
+  Оливковое масло:
+    id: OLIVE_OIL
+    synonyms:
+      - оливковое масло
+
+  Подсолнечное масло:
+    id: SUNFLOWER_OIL
+    synonyms:
+      - подсолнечное масло
+      - масло подсолнечное
+
+  Кунжутное масло:
+    id: SESAME_OIL
+    synonyms:
+      - кунжутное масло
+
+  Льняное масло:
+    id: FLAXSEED_OIL
+    synonyms:
+      - льняное масло
+
+  Соевый соус:
+    id: SOY_SAUCE
+    synonyms:
+      - соевый соус
+
+  Устричный соус:
+    id: OYSTER_SAUCE
+    synonyms:
+      - устричный соус
+
+  Рыбный соус:
+    id: FISH_SAUCE
+    synonyms:
+      - рыбный соус
+
+  Томатная паста:
+    id: TOMATO_PASTE
+    synonyms:
+      - томатная паста
+
+  Томатный соус:
+    id: TOMATO_SAUCE
+    synonyms:
+      - томатный соус
+      - соус томатный
+
+  Тахини:
+    id: TAHINI
+    synonyms:
+      - тахини
+      - кунжутная паста
+
+  Горчица:
+    id: MUSTARD
+    synonyms:
+      - горчица
+      - горчица дижонская
+      - горчица зернистая
+
+  Майонез:
+    id: MAYO
+    synonyms:
+      - майонез
+
+  Кетчуп:
+    id: KETCHUP
+    synonyms:
+      - кетчуп
+
+  Уксус бальзамический:
+    id: BALSAMIC_VINEGAR
+    synonyms:
+      - уксус бальзамический
+
+  Уксус яблочный:
+    id: APPLE_VINEGAR
+    synonyms:
+      - уксус яблочный
+
+  Уксус винный:
+    id: WINE_VINEGAR
+    synonyms:
+      - уксус винный
+
+  Сахар:
+    id: SUGAR
+    synonyms:
+      - сахар
+      - сахар-песок
+
+  Мёд:
+    id: HONEY
+    synonyms:
+      - мед
+      - мёд
+
+  Сироп агавы:
+    id: AGAVE_SYRUP
+    synonyms:
+      - сироп агавы
+
+  Соль:
+    id: SALT
+    synonyms:
+      - соль
+
+  Перец черный:
+    id: BLACK_PEPPER
+    synonyms:
+      - перец черный
+      - перец чёрный
+      - черный перец
+      - чёрный перец
+
+  Паприка:
+    id: PAPRIKA
+    synonyms:
+      - паприка
+      - сладкая паприка
+      - копченая паприка
+
+  Куркума:
+    id: TURMERIC
+    synonyms:
+      - куркума
+
+  Карри:
+    id: CURRY
+    synonyms:
+      - карри
+      - смесь карри
+
+  Зира:
+    id: CUMIN
+    synonyms:
+      - зира
+      - кумин
+
+  Орегано:
+    id: OREGANO
+    synonyms:
+      - орегано
+      - душица
+
+  Тимьян:
+    id: THYME
+    synonyms:
+      - тимьян
+
+  Розмарин:
+    id: ROSEMARY
+    synonyms:
+      - розмарин
+
+  Чили:
+    id: CHILI
+    synonyms:
+      - чили
+      - перец чили
+      - кайенский перец
+
+  Макароны: Паста
     id: PASTA
     synonyms:
       - макароны
